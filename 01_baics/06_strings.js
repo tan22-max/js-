@@ -13,9 +13,8 @@ const repocount = 50;
 
  const newstring = gameName.substring(0,3) // cant use negattive values 
  console.log(newstring);
- const anotherstring = gameName.slice(-8,4);
- console.log(anotherstring)
-
+ const anotherstring = gameName.slice(-8,4); // can use negative values (it starts from end of string)
+ console.log(anotherstring) // if we want to start from end of string and want to go till end of string then we can use slice with one parameter
  const newstringone = "     tanishk       "
  console.log(newstringone)
  console.log(newstringone.trim());  // trim also has end and beginind functon
@@ -24,8 +23,8 @@ const repocount = 50;
  console.log(url);
  
  console.log(url.replace('%20','-'));
- console.log(url.includes('sundar'));
- console.log(gameName.split('-'));
+ console.log(url.includes('sundar')); //  it gives if includes :it is case sensitive
+ console.log(gameName.split('-')); // it gives us an array of string by splitting the string by the given parameter (it can be space or any other character)
  
  
 

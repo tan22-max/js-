@@ -19,7 +19,7 @@ object
  
 
 */
-console.log(typeof age)
-console.log(typeof undefined);
-console.log(typeof null);
+console.log(typeof age) // number 
+console.log(typeof undefined); // undefined
+console.log(typeof null); // object ?? ai _>(bug in js) it should be null but it is object
 
